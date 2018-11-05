@@ -1,0 +1,43 @@
+.app-timeline{
+	text-align: center;
+}
+.app-timeline__year{
+  font-size: .4rem;
+  line-height: 1rem;
+}
+.app-timeline__list{
+  justify-content: flex-start;
+	position: relative;
+  &:before{
+	  background-color: #00aeef;
+	  content: "";
+	  height: 100%;
+	  left: 50%;
+	  margin-left: -.04rem;
+	  position: absolute;
+	  top: 0;
+	  width: .02rem;
+  }
+}
+.app-timeline__list__item-wrapper{
+  box-sizing: border-box;
+  padding: 0 1rem;
+  margin: 1rem 0;
+}
+.app-timeline__list__item{
+  border: .01rem solid #d0d0d0;
+  .image-wrapper{
+    position: relative;
+	  height: 0;
+	  padding-bottom: 55%;
+  }
+  .title{
+    position: relative;
+    padding: .5rem 0;
+    font-size: .3rem;
+    color: #00aeef;
+    background: #fff;
+    text-align: left;
+    text-indent: 1em;
+  }
+}

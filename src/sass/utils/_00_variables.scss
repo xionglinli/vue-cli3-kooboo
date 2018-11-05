@@ -1,0 +1,23 @@
+/**
+ * Color
+*/
+
+/* component Color */
+$c-header-underlink: #0d7fb6 !default;
+$c-footer__top-background: #008abe !default;
+$c-footer__top-underlink: #00aeef !default;
+$c-footer__bottom-background: #006e98 !default;
+
+/**
+ * Responsive Breakpoints
+*/
+
+$breakpoints: (
+  'mobile': 'only screen and (max-width: 480px)',
+  'tablet-small': 'only screen and (max-width: 768px)',
+  'tablet-large': 'only screen and (max-width: 1024px)',
+  'picture': 'only screen and (min-width: 1000px)',
+  'desktop': 'only screen and (min-width: 1024px)',
+  '>mobile': 'only screen and (min-width: 480px)',
+  '>tablet-small': 'only screen and (min-width: 768px)'
+);

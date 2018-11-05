@@ -1,2 +1,26 @@
-# vue-cli3-kooboo
-Use Vue-Cli3 to code refactoring for vue-kooboo.
+# vue-kooboo-v3
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn run serve
+```
+
+### Compiles and minifies for production
+```
+yarn run build
+```
+
+### Run your tests
+```
+yarn run test
+```
+
+### Lints and fixes files
+```
+yarn run lint
+```

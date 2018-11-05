@@ -1,0 +1,46 @@
+.image-wrapper {
+  overflow: hidden;
+  width: 100%;
+  .image {
+		width: 100%;
+	}
+}
+.image--width {
+	position: relative;
+	height: 200px;
+	.image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	}	
+}
+.image--width--widthsmall {
+	.image{
+		width: 100%;
+		height: auto;
+	}
+}
+// @include media('mobile'){
+// 	.image--width--widthsmall {
+// 		.image{
+// 			width: auto;
+// 			height: 100%;
+// 		}
+// 	}
+// }
+.image--height {
+	height: 0;
+	padding-bottom: 40%;
+}
+.image--shade {
+  position: relative;
+  &:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: "";
+    background: rgba(0, 0, 0, .3);
+  }
+}

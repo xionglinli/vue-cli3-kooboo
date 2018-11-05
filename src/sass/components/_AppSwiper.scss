@@ -1,0 +1,33 @@
+.swiper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  cursor: pointer;  
+}
+.swiper__img {
+	width: 100%;
+}
+.swiper__button-prev,.swiper__button-next {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: .5rem;
+  color: #fff;
+  background: rgba(0, 0, 0, .2);
+  cursor: pointer;
+  user-select: none;
+  &:hover {
+  	background: rgba(0, 0, 0, .3);
+  }
+}
+.swiper__button-prev {
+  left: .4rem;
+  padding: .1rem .13rem .1rem .07rem;
+}
+.swiper__button-next {
+  right: .4rem;
+  padding: .1rem .07rem .1rem .13rem;
+}
